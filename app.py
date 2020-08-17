@@ -55,21 +55,21 @@ st.write(Age, 'years old')
 test_df['Age']=Age
 
 #
-spouse_option = st.slider('PulseRate', min_value=10, max_value=150, value=70)
+spouse_option = st.slider('PulseRate', min_value=40, max_value=150, value=70)
 test_df['PulseRate']=spouse_option
 
 
 
-RespiratoryRate = st.slider('RespiratoryRate', min_value=10, max_value=100, value=25)
+RespiratoryRate = st.slider('RespiratoryRate', min_value=10, max_value=40, value=25)
 test_df['RespiratoryRate']=RespiratoryRate
 
 
 
-Temperature = st.slider('Temperature', min_value=10, max_value=50, value=37)
+Temperature = st.slider('Temperature', min_value=34, max_value=40, value=37)
 test_df['Temperature']=Temperature
 
 #children
-children=st.number_input('SP02?',value=100,max_value=100,step=1)
+children=st.number_input('SP02?',min_value=34,max_value=100, value=100, step=1)
 #st.write('The current number is ', children)
 test_df['SP02']=children
 #parents
