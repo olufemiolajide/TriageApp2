@@ -6,3 +6,4 @@ streamlit==0.55.0
 numpy==1.15.4
 pandas==0.25.3
 feature-engine==0.4.3
+xgboost==1.1.0
